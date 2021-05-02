@@ -1,0 +1,49 @@
+/* hep.css */
+
+div.hep_widget_container {
+	text-align: center;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #969696;
+	/*background-color: #EBEBEB;*/
+}
+
+div.hep_widget_container h4 {
+	margin: 0px;
+}
+
+div.hep_widget_container h5 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.hep_widget_container h6 {
+	margin: 0px;
+}
+
+div.hep_widget_header {
+	/*background-color: #277da1ff;*/
+}
+
+div.hep_widget_content {
+	/*background-color: #EBEBEB;*/
+
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+div.hep_widget_exchanges {
+	display:inline-block;
+	width: 100%;
+	border-top: 1px solid #969696;
+		min-width: 127px;
+	/*background-color: #EBEBEB;*/
+}
+
+div.hep_widget_exchanges > a {
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
