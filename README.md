@@ -10,4 +10,6 @@ Activate the `Hive Engine Price` plugin from the wp-admin `Plugins` page.
 Add the Widget via WordPress 'Customize' page, enter the desired HiveEngine token name. e.g. `PIZZA`.
 
 
-
+See the widget in action on these WP sites:
+* https://hive.pizza
+* https://hivelist.io/list-token/
