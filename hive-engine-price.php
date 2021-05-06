@@ -60,9 +60,9 @@ echo __( get_header_textcolor(), 'hep_widget_domain');
 echo __( '<h5><div id="' . $content_div_id . '" class="hep_widget_content" data-token-name="'.$token.'""></div></h5>', 'hep_widget_domain' );
 
 echo __( '<div class="hep_widget_exchanges">
-			<a href="https://hive-engine.com/?p=market&t='.$token.'"><img src="'.plugins_url( '/img/hiveengine.png' , __FILE__ ).'"></a>
-			<a href="https://leodex.io/market/'.$token.'"><img src="'.plugins_url( '/img/leodex.png' , __FILE__ ).'"></a>
-			<a href="https://tribaldex.com/trade/'.$token.'"><img src="'.plugins_url( '/img/tribaldex.png' , __FILE__ ).'"></a>
+			<a href="https://hive-engine.com/?p=market&t='.$token.'" target="_blank"><img src="'.plugins_url( '/img/hiveengine.png' , __FILE__ ).'"></a>
+			<a href="https://leodex.io/market/'.$token.'" target="_blank"><img src="'.plugins_url( '/img/leodex.png' , __FILE__ ).'"></a>
+			<a href="https://tribaldex.com/trade/'.$token.'" target="_blank"><img src="'.plugins_url( '/img/tribaldex.png' , __FILE__ ).'"></a>
 		 </div>'
 		  , 'hep_widget_domain' );
 
