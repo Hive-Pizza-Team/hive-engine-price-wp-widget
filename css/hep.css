@@ -5,7 +5,6 @@ div.hep_widget_container {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	border: 1px solid #969696;
 	/*background-color: #EBEBEB;*/
 }
 
@@ -28,7 +27,6 @@ div.hep_widget_header {
 
 div.hep_widget_content {
 	/*background-color: #EBEBEB;*/
-
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -36,8 +34,7 @@ div.hep_widget_content {
 div.hep_widget_exchanges {
 	display:inline-block;
 	width: 100%;
-	border-top: 1px solid #969696;
-		min-width: 127px;
+	min-width: 127px;
 	/*background-color: #EBEBEB;*/
 }
 
