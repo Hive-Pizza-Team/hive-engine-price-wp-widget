@@ -36,7 +36,7 @@ function getHivePrice() {
 	})
 }
 
-function getTokenPrice(token, content_div_id) {
+function getTokenPrice(token, div) {
 	var hivePrice = getHivePrice()
 	var sellBook = getSellBook(token)
 
@@ -46,7 +46,7 @@ function getTokenPrice(token, content_div_id) {
 		let sellBook = result[1]
 		sellBook = sellBook.sort( (a,b) => Number(a.price) - Number(b.price) )
 
-		var targetDiv = document.querySelector('div#' + content_div_id)
+		var targetDiv = div
 
 		let sellOrder = sellBook[0]
 
@@ -60,7 +60,7 @@ function getTokenPrice(token, content_div_id) {
 Array.from(document.querySelectorAll('div.hep_widget_content')).forEach( (div) => {
 	let token_name = div.getAttribute('data-token-name')
 	let div_id = div.getAttribute('id')
-	getTokenPrice(token_name.toUpperCase(), div_id)
+	getTokenPrice(token_name.toUpperCase(), div)
 })
 
 
